@@ -306,7 +306,7 @@ p {
   border: 2px solid #e5c2e5;
   padding: 0.5rem;
   width: 200px;
-  font-family: SFMono-Regular;
+  font-family: "Courier New", Courier, monospace;
   color: white;
 }
 
@@ -314,7 +314,7 @@ p {
   background-color: transparent;
   border: 2px solid #e5c2e5;
   color: white;
-  font-family: SFMono-Regular;
+  font-family: "Courier New", Courier, monospace;
   padding: 0.5rem;
 }
 
