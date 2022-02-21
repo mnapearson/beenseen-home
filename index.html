@@ -46,7 +46,30 @@
         </form>
         <p class="privacy">
           clicking submit you agree to our
-          <a href="privacy.pdf">privacy policy</a>
+          <a
+            target="_blank"
+            href="https://www.iubenda.com/privacy-policy/59698353"
+            class=""
+            title="Privacy Policy "
+            >privacy policy</a
+          >
+          <script type="text/javascript">
+            (function (w, d) {
+              var loader = function () {
+                var s = d.createElement("script"),
+                  tag = d.getElementsByTagName("script")[0];
+                s.src = "https://cdn.iubenda.com/iubenda.js";
+                tag.parentNode.insertBefore(s, tag);
+              };
+              if (w.addEventListener) {
+                w.addEventListener("load", loader, false);
+              } else if (w.attachEvent) {
+                w.attachEvent("onload", loader);
+              } else {
+                w.onload = loader;
+              }
+            })(window, document);
+          </script>
         </p>
         <p id="success">
           Thank you! You'll be the first to know when BeenSeen launches.
@@ -57,17 +80,24 @@
       </div>
     </section>
     <footer>
-      <span
-        class="iconify"
-        data-icon="akar-icons:instagram-fill"
-        style="color: #eb1bef; font-size: 30px"
-      ></span>
-      <p>info@beenseen.app</p>
-      <span
-        class="iconify"
-        data-icon="iconoir:twitter"
-        style="color: #eb1bef; font-size: 30px"
-      ></span>
+      <a href="https://www.instagram.com/beenseen.app/">
+        <span
+          class="iconify"
+          data-icon="akar-icons:instagram-fill"
+          style="color: #eb1bef; font-size: 30px"
+        ></span
+      ></a>
+      <a style="text-decoration: none" href="mailto:beenseen.app@gmail.com">
+        <p>info@beenseen.app</p></a
+      >
+
+      <a href="https://twitter.com/beenseenapp">
+        <span
+          class="iconify"
+          data-icon="iconoir:twitter"
+          style="color: #eb1bef; font-size: 30px"
+        ></span
+      ></a>
     </footer>
   </body>
 </html>
