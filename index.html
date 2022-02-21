@@ -4,11 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="style.css" />
-    <title>BEEN SEEN</title>
+    <title>BeenSeen ♡ the missed connection app for the 21st century</title>
     <link rel="icon" href="/images/favicon.ico" />
   </head>
   <body>
-    <h1>been seen</h1>
+    <header>
+      <img src="images/been.png" alt="" />
+      <img src="images/seen.png" alt="" />
+    </header>
+    <div class="down-arrow">
+      <a href="#main">
+        <span
+          class="iconify"
+          data-icon="line-md:arrow-down-circle"
+          style="color: #eb1bef; font-size: 50px"
+        ></span
+      ></a>
+    </div>
+    <section id="main">
+      <div class="row-one">
+        <h1>a reconnection app for the 21st century</h1>
+      </div>
+      <div class="row-two">
+        <p>be one of the first to be seen...</p>
+        <form id="waitlist">
+          <input type="hidden" name="contact_number" />
+          <input
+            class="email"
+            type="email"
+            name="reply_to"
+            placeholder="email"
+          />
+          <input class="button" type="submit" value="send" />
+        </form>
+        <p class="privacy">
+          clicking submit you agree to our
+          <a href="privacy.pdf">privacy policy</a>
+        </p>
+        <p id="success">
+          Thank you! You'll be the first to know when BeenSeen launches.
+        </p>
+      </div>
+      <div class="row-three">
+        <h2>launching spring '22</h2>
+      </div>
+    </section>
+    <footer>
+      <span
+        class="iconify"
+        data-icon="akar-icons:instagram-fill"
+        style="color: #eb1bef; font-size: 30px"
+      ></span>
+      <p>info@beenseen.app</p>
+      <span
+        class="iconify"
+        data-icon="iconoir:twitter"
+        style="color: #eb1bef; font-size: 30px"
+      ></span>
+    </footer>
   </body>
 </html>
