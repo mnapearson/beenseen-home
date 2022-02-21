@@ -79,8 +79,8 @@ img {
   justify-content: center;
   align-items: center;
   margin-top: 4rem;
-  -webkit-animation: flicker-in-1 3s linear 1.2s infinite both;
-  animation: flicker-in-1 3s linear 1.2s infinite both;
+  -webkit-animation: flicker-in-1 3s linear 1.2s both;
+  animation: flicker-in-1 3s linear 1.2s both;
 }
 
 /* ----------------------------------------------
