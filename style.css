@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Kihim;
+  src: url(/Users/michaelapearson/Library/Fonts/Kihim-Regular.otf);
+}
+title {
+  display: block;
+  font-family: Kihim-Regular;
+}
+
+h1 {
+  font-family: Kihim-Regular;
+}
