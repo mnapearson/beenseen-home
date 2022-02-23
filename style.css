@@ -13,15 +13,15 @@
 }
 
 body {
-  background-color: #121112;
+  background-color: #fefcfd;
   overscroll-behavior: none;
-  color: white;
+  color: black;
   font-family: Sf Mono;
   font-weight: 200;
 }
 
 header {
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -32,9 +32,14 @@ header {
 }
 
 img {
-  width: 350px;
+  width: 650px;
   height: auto;
-  margin: -0.4rem;
+  margin: -0.65rem;
+}
+
+.iconify {
+  height: 50px;
+  width: auto;
 }
 
 /* ----------------------------------------------
@@ -297,39 +302,44 @@ section {
   max-width: 700px;
 }
 
+h1 {
+  margin-top: 1rem;
+}
+
 p {
   margin: 1rem;
+  font-size: 14px;
 }
 
 .email {
   background-color: transparent;
-  border: 2px solid #e5c2e5;
+  border: 2px solid #0207ff;
   padding: 0.5rem;
   width: 200px;
   font-family: Sf Mono;
-  color: white;
+  color: #0207ff;
 }
 
 .button {
   background-color: transparent;
-  border: 2px solid #e5c2e5;
-  color: white;
+  border: 2px solid #0207ff;
+  color: black;
   font-family: Sf Mono;
   padding: 0.5rem;
 }
 
 .privacy {
-  color: white;
+  color: black;
   font-size: 8px;
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 #success {
   display: none;
-  color: #eb1bef;
+  color: #0207ff;
 }
 
 h2 {
@@ -341,4 +351,28 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin: 0 1rem;
+}
+
+.social {
+  width: 30px;
+  height: auto;
+}
+
+@media (max-width: 500px) {
+  body {
+    overflow: none;
+  }
+
+  header img {
+    width: 300px;
+    height: auto;
+  }
+
+  section {
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
 }
