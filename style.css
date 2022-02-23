@@ -334,6 +334,7 @@ a {
 #success {
   display: none;
   color: #0207ff;
+  margin-top: 1rem;
 }
 
 h2 {
