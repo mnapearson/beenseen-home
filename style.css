@@ -1,11 +1,11 @@
 @font-face {
   font-family: Kihim;
-  src: url(/Users/michaelapearson/Library/Fonts/Kihim-Regular.otf);
+  src: url(Kihim-Regular.otf);
 }
 
 @font-face {
   font-family: SF Mono;
-  src: url(/Users/michaelapearson/Library/Fonts/SFMono-Regular.otf);
+  src: url(SFMono-Regular.otf);
 }
 
 * {
@@ -16,7 +16,7 @@ body {
   background-color: #121112;
   overscroll-behavior: none;
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Sf Mono;
   font-weight: 200;
 }
 
@@ -306,7 +306,7 @@ p {
   border: 2px solid #e5c2e5;
   padding: 0.5rem;
   width: 200px;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Sf Mono;
   color: white;
 }
 
@@ -314,7 +314,7 @@ p {
   background-color: transparent;
   border: 2px solid #e5c2e5;
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Sf Mono;
   padding: 0.5rem;
 }
 
